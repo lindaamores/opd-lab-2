@@ -1,0 +1,481 @@
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.6.2 (Build 25G83)
+Darwin version:          25.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        49152 MB
+Date:                    2026-10-01T19:18:28Z
+[WARNING] The Intel macOS Editor is deprecated; it will no longer be available after Unity 6.7 LTS.
+
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa" at "2026-10-01T19:18:28.522623Z"
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: a2e7f610497cdd3dc97cf50c3e5eaf0e
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW4
+-projectPath
+/Users/mariaukrainskaa/Desktop/OPD_lab2/New Unity Project
+-logFile
+Logs/AssetImportWorkerHW4.log
+-srvPort
+61545
+-parentPid
+29002
+-analyticsCloudUserId
+10171657589034
+-analyticsLocalProjectId
+5b5b6c946fb6b43d9a9a00364e3113a1
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+6ccd1c2106d406fa2e9c41dc9084c5b0f2065f1d
+-cbmMachineId
+LpnL7C59YsJ+/7ARDlfIqvcwJFM=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+8
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-metal
+-name AssetImport
+Successfully changed project path to: /Users/mariaukrainskaa/Desktop/OPD_lab2/New Unity Project
+/Users/mariaukrainskaa/Desktop/OPD_lab2/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8737156672]  Target information:
+
+Player connection [8737156672]  * "[IP] 192.168.3.97 [Port] 0 [Flags] 2 [Guid] 3208952584 [EditorId] 3208952584 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8737156672]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 3208952584 [EditorId] 3208952584 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8737156672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8737156672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 8
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mariaukrainskaa/Desktop/OPD_lab2/New Unity Project/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 Pro (high power)
+Metal devices available: 1
+0: Apple M5 Pro (high power)
+Using device Apple M5 Pro (high power)
+Initializing Metal device caps: Apple M5 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56442
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              73c1d6ebc4f04dd685596fc5527e8ba8
+  Correlation Id:          0109fd588050133db5480bb7abdad274
+  External correlation Id: 8529026202760403958
+  Machine Id:              LpnL7C59YsJ+/7ARDlfIqvcwJFM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mariaukrainskaa" (connect: 0.00s, validation: 0.00s, handshake: 0.42s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa-notifications" at "2026-10-01T19:18:28.947057Z"
+[Licensing::Module] Licensing Background thread has ended after 0.42s
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000689 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.157 seconds
+Domain Reload Profiling: 1874ms
+	BeginReloadAssembly (136ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (132ms)
+		TypeCache.Refresh (168ms)
+			TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1160ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (389ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171657589034-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1959ms
+	BeginReloadAssembly (315ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (294ms)
+		TypeCache.Refresh (13ms)
+			TypeCache.ScanAssembly (7ms)
+		AnalyzeDomain (13ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (1130ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (430ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 512 unused Assets / (36.0 KB). Loaded Objects now: 1222.
+Memory consumption went from 102.7 MB to 102.6 MB.
+Total: 4.719625 ms (FindLiveObjects: 0.129958 ms CreateObjectMapping: 0.015875 ms MarkObjects: 4.409042 ms  DeleteObjects: 0.128166 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:20.315547Z
+  Time since last request: 166833.14023329099291 seconds.
+  importAddress: GUID: eea8d0a68959954468e2e6aa0f659fa9 - Path: Assets/IndieMarc/Icon.png - Importer: PreviewImporter
+Importing 'GUID: eea8d0a68959954468e2e6aa0f659fa9 - Path: Assets/IndieMarc/Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: eea8d0a68959954468e2e6aa0f659fa9' -> (Import Result ID: '25098d84bf13e659397286a6ffd6d924') in 0.216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96fafded6745db93d628a0d408c3ad0e DependenciesID=ce713033d952674f87f25777fddc0f55 StaticDependenciesID=e1a9f47255fe39c9f7ae94b05e5838e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:33.671953Z
+  Time since last request: 13.137876833 seconds.
+  importAddress: GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity - Importer: PreviewImporter
+Importing 'GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 230ee21eea18d46e48f6038641c438b7' -> (Import Result ID: '6ac3b5faef98677f6acbb4ef67018fd0') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd698d2b3ad3544679e167af4af0b23d DependenciesID=3d0d237319a0c36badf67edea041fa00 StaticDependenciesID=4cbb08383099ad62e83fcead8a329c4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1230.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 4.134417 ms (FindLiveObjects: 0.122917 ms CreateObjectMapping: 0.007542 ms MarkObjects: 3.943416 ms  DeleteObjects: 0.002833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:38.569176Z
+  Time since last request: 4.895966792 seconds.
+  importAddress: GUID: 36e9b3a28120a0841bed6886ca88cf7a - Path: Assets/IndieMarc/PlatformerDemo/Materials - Importer: PreviewImporter
+Importing 'GUID: 36e9b3a28120a0841bed6886ca88cf7a - Path: Assets/IndieMarc/PlatformerDemo/Materials - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 36e9b3a28120a0841bed6886ca88cf7a' -> (Import Result ID: 'b0cd338e08677ff53d0ab188ca976e0c') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a423d2710e4640288ea05471e4d5d3cc DependenciesID=61ff14f2fbbbcee09a06274815e8ec01 StaticDependenciesID=b1eca466daea62f5988383a1738b0b36 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:39.062964Z
+  Time since last request: 0.493244209 seconds.
+  importAddress: GUID: 324d126e310b4cd449ecde98c1fb938b - Path: Assets/IndieMarc/PlatformerDemo/Editor - Importer: PreviewImporter
+Importing 'GUID: 324d126e310b4cd449ecde98c1fb938b - Path: Assets/IndieMarc/PlatformerDemo/Editor - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 324d126e310b4cd449ecde98c1fb938b' -> (Import Result ID: 'a8448d4f911a58af36d9dc4df9a880fe') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42e740ae3c147cd7dde246c9f7036315 DependenciesID=844ec7793b3831ccabee33c34efca2a3 StaticDependenciesID=229c3d1b86ab78f65c76051619af48c8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:46.525858Z
+  Time since last request: 7.462410167 seconds.
+  importAddress: GUID: ff3cce638b247874e8bf3d90a67aba5e - Path: Assets/IndieMarc/PlatformerDemo - Importer: PreviewImporter
+Importing 'GUID: ff3cce638b247874e8bf3d90a67aba5e - Path: Assets/IndieMarc/PlatformerDemo - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ff3cce638b247874e8bf3d90a67aba5e' -> (Import Result ID: '8ef801c58705ba0ecb06538a3c05ecf7') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9953a914df2092756dca05a23a6a105 DependenciesID=0dfdb3dc0db465a66d3043582461706d StaticDependenciesID=5d7bf2db64b508e3c81f98417f6ae5c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:49.07766Z
+  Time since last request: 2.55130975 seconds.
+  importAddress: GUID: 599ab31ae15957a43a88a60d8ee8ecdf - Path: Assets/IndieMarc/Simple2DTemplate.pdf - Importer: PreviewImporter
+Importing 'GUID: 599ab31ae15957a43a88a60d8ee8ecdf - Path: Assets/IndieMarc/Simple2DTemplate.pdf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 599ab31ae15957a43a88a60d8ee8ecdf' -> (Import Result ID: '27d77d215a0323f4482f8a8b19bf600a') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1062c2aadb3c68ee99047dc432e1c808 DependenciesID=b91c2346f52d9cab806c0268c32f3e17 StaticDependenciesID=ea5a6e98aa287ff7d44848c9eb61e5fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:42:58.070187Z
+  Time since last request: 8.991473666 seconds.
+  importAddress: GUID: 8645aa9c3c74fb34ba9499e14fb332b5 - Path: Packages/com.unity.ide.rider/CHANGELOG.md - Importer: PreviewImporter
+Importing 'GUID: 8645aa9c3c74fb34ba9499e14fb332b5 - Path: Packages/com.unity.ide.rider/CHANGELOG.md - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8645aa9c3c74fb34ba9499e14fb332b5' -> (Import Result ID: '9c6e1b05c9d5644b622e334f5f50ee43') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07ac60d21f559ae27056f3d5f75b95ab DependenciesID=fc4c3bbdb4db38df1e2867bd95efc6db StaticDependenciesID=e971ca60a1f91ca867b417cec26032d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:26.480625Z
+  Time since last request: 88.40945499999999 seconds.
+  importAddress: GUID: 5598b14661b5f4c43bed757f34b6d172 - Path: Packages/com.unity.ide.rider/LICENSE.md - Importer: PreviewImporter
+Importing 'GUID: 5598b14661b5f4c43bed757f34b6d172 - Path: Packages/com.unity.ide.rider/LICENSE.md - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5598b14661b5f4c43bed757f34b6d172' -> (Import Result ID: '809931abcadac8872239cb5ceeecbbed') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a132eb6ff78532f990d075a8dac52d9 DependenciesID=2e01ae549b970e2604bd09c60f424b18 StaticDependenciesID=8c93f0252f0bb9cfbacdffe60603257f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:36.579639Z
+  Time since last request: 10.098269125 seconds.
+  importAddress: GUID: 4d84f50963c3c5b4582599f58f8c4d4b - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterIdleLeft.anim - Importer: PreviewImporter
+Importing 'GUID: 4d84f50963c3c5b4582599f58f8c4d4b - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterIdleLeft.anim - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4d84f50963c3c5b4582599f58f8c4d4b' -> (Import Result ID: 'abee0dec12fba6a988a4b36ba0016b88') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c09bd89b98a1a0121f0ea15a7c81f510 DependenciesID=e383a7da9ddddc84b915b2512bae8ea0 StaticDependenciesID=774b82c7c55e77367ad24e9aa91db39c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:41.137889Z
+  Time since last request: 4.556448083 seconds.
+  importAddress: GUID: 17809628ed110b342a9634c0e61c068a - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeft.anim - Importer: PreviewImporter
+Importing 'GUID: 17809628ed110b342a9634c0e61c068a - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeft.anim - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 17809628ed110b342a9634c0e61c068a' -> (Import Result ID: 'fa94c6c21db551d3eaa740f336b59afb') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a89d0bb6147fe6e93d3ce960ea94b3b DependenciesID=cd9be3eff1b959ee6be54130b208b73e StaticDependenciesID=70db5762c301986ef27d5a47a458b7c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:42.833347Z
+  Time since last request: 1.692549042 seconds.
+  importAddress: GUID: 006af9e18b9c35b49a7e2bc955181b4a - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterRight.png - Importer: PreviewImporter
+Importing 'GUID: 006af9e18b9c35b49a7e2bc955181b4a - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterRight.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 006af9e18b9c35b49a7e2bc955181b4a' -> (Import Result ID: 'c94be47d0f74f2d8b42b2c8684d9fdc3') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3eec101ebe378f7eb3097e14cb296e2c DependenciesID=3b8a57c48dae137d71f9c2d279e69470 StaticDependenciesID=d151eadb30a62876f33ba6e5a1605a4d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:57.279813Z
+  Time since last request: 14.405499042 seconds.
+  importAddress: GUID: 03ac0993cdae0f6428f5b78ed71bc571 - Path: Assets/IndieMarc/TopDownDemo/Editor/ImportPackage.cs - Importer: PreviewImporter
+Importing 'GUID: 03ac0993cdae0f6428f5b78ed71bc571 - Path: Assets/IndieMarc/TopDownDemo/Editor/ImportPackage.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 03ac0993cdae0f6428f5b78ed71bc571' -> (Import Result ID: '56d200eb52ddf1afe4217fda41c0d0e7') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9978c41e8ce66b5970700f26d4c2d601 DependenciesID=f5d1bf9e6476e93464680ed26602f4a9 StaticDependenciesID=8b279841968c54a2c3ef29675285fa64 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:44:58.626763Z
+  Time since last request: 1.346015208 seconds.
+  importAddress: GUID: 5a8efd87f0d6f5b4eb0203b613f78207 - Path: Assets/IndieMarc/TopDownDemo/Editor/ReplacePrefab.cs - Importer: PreviewImporter
+Importing 'GUID: 5a8efd87f0d6f5b4eb0203b613f78207 - Path: Assets/IndieMarc/TopDownDemo/Editor/ReplacePrefab.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a8efd87f0d6f5b4eb0203b613f78207' -> (Import Result ID: '417d6106aa5ca9c8d7c3854a07deea06') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00bc3b430c1026e101eb65e9e9f23cf0 DependenciesID=ac24a107f085476ce49880f53716e352 StaticDependenciesID=0dcb152356e41d5dd4b1d29f22fb7f23 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:47:54.623284Z
+  Time since last request: 175.995481625 seconds.
+  importAddress: GUID: 7c16a060ac6e1f3479bb550ba8741888 - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterIdleLeftHold.anim - Importer: PreviewImporter
+Importing 'GUID: 7c16a060ac6e1f3479bb550ba8741888 - Path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterIdleLeftHold.anim - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7c16a060ac6e1f3479bb550ba8741888' -> (Import Result ID: '87f9cf339d5a8bb0fedc7314a4726a32') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c22d5fde246fda2c2c6961c3caca1e7 DependenciesID=c4b1b1bd3a7a9d24c8c6592c0c3b77ab StaticDependenciesID=cf9769c0ae8e09c1bfa3529eec194ace 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:04.767765Z
+  Time since last request: 10.141513333 seconds.
+  importAddress: GUID: e9c8335ec074d2a489b7a1afbde0106a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap - Importer: PreviewImporter
+Importing 'GUID: e9c8335ec074d2a489b7a1afbde0106a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e9c8335ec074d2a489b7a1afbde0106a' -> (Import Result ID: 'e1ad7200a779414510b01603bcebfb64') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c365fbc0235e7e5298e6750a53cacaf DependenciesID=4b30d2c07efdfa918fc9f58437a5a42c StaticDependenciesID=a5e6334e3e862425fcff3e1ab3ee15c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:05.548279Z
+  Time since last request: 0.780051375 seconds.
+  importAddress: GUID: 614306b560283fc488f1f8d5d3db783e - Path: Assets/IndieMarc/PlatformerDemo/Sprites - Importer: PreviewImporter
+Importing 'GUID: 614306b560283fc488f1f8d5d3db783e - Path: Assets/IndieMarc/PlatformerDemo/Sprites - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 614306b560283fc488f1f8d5d3db783e' -> (Import Result ID: '8db6527cf3243e27c3a9f4bb944c4cea') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=baf55b2ad56115d7488ccc12394c4496 DependenciesID=6ccbeeced5b155320c5c88d6021f875a StaticDependenciesID=2461db7d10d7e3ec61dbd8d93e500849 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:06.161608Z
+  Time since last request: 0.612914416 seconds.
+  importAddress: GUID: 758f102eb2cdaab4ca5cdfce800838d2 - Path: Assets/IndieMarc/PlatformerDemo/Scripts - Importer: PreviewImporter
+Importing 'GUID: 758f102eb2cdaab4ca5cdfce800838d2 - Path: Assets/IndieMarc/PlatformerDemo/Scripts - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 758f102eb2cdaab4ca5cdfce800838d2' -> (Import Result ID: 'ebb470f67f99a0f6abde10677ed93213') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3a1dcfdc2844990f600fcaf27389d88 DependenciesID=957f50844bb5b1372642bad3447289a8 StaticDependenciesID=5ceb4a74feb33788c73fc0b7aa95fd64 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:09.259458Z
+  Time since last request: 3.097376917 seconds.
+  importAddress: GUID: f068dd67df4805e4287335af88f26c7c - Path: Assets/IndieMarc/PlatformerDemo/Prefabs - Importer: PreviewImporter
+Importing 'GUID: f068dd67df4805e4287335af88f26c7c - Path: Assets/IndieMarc/PlatformerDemo/Prefabs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f068dd67df4805e4287335af88f26c7c' -> (Import Result ID: 'a48d1d3cf8f55f1fcb8c36a41a17b8a7') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3f87d8a54219dc07aaef1896d39c249 DependenciesID=22053f1e072c9bdff5087ee4b63d7b89 StaticDependenciesID=907bb4c7d4295626fc3cda8927a075b7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:18.545716Z
+  Time since last request: 9.285788 seconds.
+  importAddress: GUID: 80e0030263dbb1a40957075a51e46ba0 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/FollowCamera.cs - Importer: PreviewImporter
+Importing 'GUID: 80e0030263dbb1a40957075a51e46ba0 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/FollowCamera.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 80e0030263dbb1a40957075a51e46ba0' -> (Import Result ID: 'e5939c54f044987bc4b38d69ae0d52a2') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=107b330548a4bfb953fd22d4b0153dec DependenciesID=ee1cfe0760d6a51c995f1caa9491ed32 StaticDependenciesID=045869e2948c4af85c5c6e1748c34b1e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:19.835917Z
+  Time since last request: 1.289781084 seconds.
+  importAddress: GUID: 755ecac09c1a1b84cb565d5c02636242 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/Lever.cs - Importer: PreviewImporter
+Importing 'GUID: 755ecac09c1a1b84cb565d5c02636242 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/Lever.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 755ecac09c1a1b84cb565d5c02636242' -> (Import Result ID: 'fe6d4c070ad5b77130e391327269d887') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42c62ac4ba8b3376998a35bee2a8dc26 DependenciesID=e1361a19f98ede17f94ae8fb85c65e28 StaticDependenciesID=5b410384f9099c1fd510a56b65311678 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:20.512651Z
+  Time since last request: 0.676333 seconds.
+  importAddress: GUID: df1b9f4bb36dfa1418ddb515202e6318 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/ParallaxBackground.cs - Importer: PreviewImporter
+Importing 'GUID: df1b9f4bb36dfa1418ddb515202e6318 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/ParallaxBackground.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: df1b9f4bb36dfa1418ddb515202e6318' -> (Import Result ID: '10d1300b21b3a4d3423be5122db4a8c2') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7273e91a800a62ae5cbe4c52779daca1 DependenciesID=ec5d69fe2dabf8064d722956c3c172f3 StaticDependenciesID=b2a60cc7c8d14c8dcb93eb2a17875157 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:22.894501Z
+  Time since last request: 2.381379542 seconds.
+  importAddress: GUID: f86bdb239ddc5f644bcd637af39857dc - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever - Importer: PreviewImporter
+Importing 'GUID: f86bdb239ddc5f644bcd637af39857dc - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f86bdb239ddc5f644bcd637af39857dc' -> (Import Result ID: '39180e31b17ba2bcbe80b1afae0eb824') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbbf5e79e09d5277878537eb9653fb94 DependenciesID=c8fcaaa3d12573779d5899485238c161 StaticDependenciesID=a8fab71f25d2eea2e44af7a59ca95bb4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:23.474405Z
+  Time since last request: 0.579484083 seconds.
+  importAddress: GUID: e28f62e17ab915240aaa2eed417db312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png - Importer: PreviewImporter
+Importing 'GUID: e28f62e17ab915240aaa2eed417db312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e28f62e17ab915240aaa2eed417db312' -> (Import Result ID: '2c69375a456529e9dbd8e1948c18ff38') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d61f166755ffceff166749a2d7749e3 DependenciesID=3e443f0c65befbe9999ff04eda229c31 StaticDependenciesID=722c787adabb894d096528c5f02a844c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:24.26181Z
+  Time since last request: 0.778503875 seconds.
+  importAddress: GUID: 74f7f12e816b4af47b2c22f055f5629a - Path: Assets/IndieMarc/PlatformerDemo/Sprites/CircleBlur.png - Importer: PreviewImporter
+Importing 'GUID: 74f7f12e816b4af47b2c22f055f5629a - Path: Assets/IndieMarc/PlatformerDemo/Sprites/CircleBlur.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 74f7f12e816b4af47b2c22f055f5629a' -> (Import Result ID: 'c1bf99a09eef827fc99e8d30b3570f77') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11ab0460236a23fcaa6dd8b7b355cf33 DependenciesID=a592a9383adb4912d455003b72fd3d2a StaticDependenciesID=2a244de95f3194f3a9eb38c063210550 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:29.300209Z
+  Time since last request: 5.033410708 seconds.
+  importAddress: GUID: 54be27fb08510e34dbd19671f582af2a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black - Importer: PreviewImporter
+Importing 'GUID: 54be27fb08510e34dbd19671f582af2a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 54be27fb08510e34dbd19671f582af2a' -> (Import Result ID: '82e9706d52986d942c1013e6d8f5ca9f') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c616ef474e8f3f120add7fb04543ece DependenciesID=5e4bde99646e5c4536c2bae657c719ae StaticDependenciesID=754d20c38a8af51bc22187f646004293 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T20:48:29.92308Z
+  Time since last request: 0.622398834 seconds.
+  importAddress: GUID: 2352cead022bc224ca49c4e2333b3789 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old - Importer: PreviewImporter
+Importing 'GUID: 2352cead022bc224ca49c4e2333b3789 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2352cead022bc224ca49c4e2333b3789' -> (Import Result ID: '54b843f33c745c3b268738858661fc6d') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89b3cee3014428745f3e67a20a7e444f DependenciesID=5c57e968501d8bc9a602423b81727428 StaticDependenciesID=566cdd03e8d412a12372d50107d50b8b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T05:08:01.759486Z
+  Time since last request: 1231.89078016799999 seconds.
+  importAddress: GUID: b92f3fb580bcfa04caaebcd08979308b - Path: Assets/IndieMarc/TopDownDemo/Scripts/FollowCamera.cs - Importer: PreviewImporter
+Importing 'GUID: b92f3fb580bcfa04caaebcd08979308b - Path: Assets/IndieMarc/TopDownDemo/Scripts/FollowCamera.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b92f3fb580bcfa04caaebcd08979308b' -> (Import Result ID: '7769edb8380124683a31f5d949e8b12b') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce2081505ef7ce811aa347b959d30d1d DependenciesID=3466c0c56bba2c9a8ece0236854fc592 StaticDependenciesID=e06d33fadf22f65ea829c23fe9dbfa9e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
