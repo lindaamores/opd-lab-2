@@ -1122,7 +1122,7 @@ MonoBehaviour:
         state: 0
         overlayData: []
     m_OverlaysVisible: 1
-    m_PresetDirty: 0
+    m_PresetDirty: 1
     m_DynamicPanelBehavior: 0
     m_DynamicPanelBehaviorModified: 0
   m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 1.5162505, y: 3.6741202, z: 7.74396}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1187,15 +1187,15 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 9.871608
     speed: 2
-    m_Value: 12.973341
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1213,8 +1213,8 @@ MonoBehaviour:
     m_OcclusionCulling: 0
     m_LocalCopyBuffer: 
   m_AdditionalSettings: []
-  m_LastSceneViewRotation: {x: 0.31118897, y: 0.09269961, z: -0.030600414, w: 0.9453927}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 16}
     m_CameraOverscanSettings:
@@ -1293,10 +1293,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1316,7 +1316,7 @@ MonoBehaviour:
       y: 21
       width: 709
       height: 538
-    m_Scale: {x: 0.27695313, y: 0.27695313}
+    m_Scale: {x: 0.55390626, y: 0.55390626}
     m_Translation: {x: 354.5, y: 269}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1324,13 +1324,13 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1280
-      y: -971.28345
-      width: 2560
-      height: 1942.5669
+      x: -640
+      y: -485.64172
+      width: 1280
+      height: 971.28345
     m_MinimalGUI: 1
-  m_defaultScale: 0.27695313
-  m_LastWindowPixelSize: {x: 709, y: 559}
+  m_defaultScale: 0.55390626
+  m_LastWindowPixelSize: {x: 1418, y: 1118}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100y
