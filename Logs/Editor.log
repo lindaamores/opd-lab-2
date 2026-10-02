@@ -2534,3 +2534,15 @@ Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated access token: "H-IcjlGt"... (expires: 2026-10-02T08:43:25Z)
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
