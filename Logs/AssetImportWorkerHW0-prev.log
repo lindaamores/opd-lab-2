@@ -1,13 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T05:59:57.4004201Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T06:30:46.7020122Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16087 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-03T05:59:57Z
+Date: 2026-10-03T06:30:46Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1736, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              f6e1e4bc27144d048faece3742eb9fe5
+  Correlation Id:          60d77bed69e67bae64867d1c62a17d71
+  External correlation Id: 4400428933238440174
+  Machine Id:              3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T06:30:46.7313486Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
@@ -21,25 +30,16 @@ C:/Users/Sun/Documents/GitHub/opd-lab-2
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-52768
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              80b61dc9bb9e4dfb878a718e29894762
-  Correlation Id:          60d77bed69e67bae64867d1c62a17d71
-  External correlation Id: 4145812460931237569
-  Machine Id:              3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
+53814
 -parentPid
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-11288
+3256
 -analyticsCloudUserId
 anonymous
 -analyticsLocalProjectId
 5f31c3799268c0f4287e7d86488ae4be
 -editorAnalyticsEnabled
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T05:59:57.4293641Z"
 1
 -cbmEditorLicense
-[Licensing::Module] Licensing Background thread has ended after 0.03s
 bd6540e38fccc4007f7ff4eee991ce45c4819dca
 -cbmMachineId
 3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
@@ -94,14 +94,14 @@ C:/Users/Sun/Documents/GitHub/opd-lab-2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [712]  Target information:
+Player connection [6268]  Target information:
 
-Player connection [712]  * "[IP] 26.12.205.64 [Port] 0 [Flags] 2 [Guid] 2053812887 [EditorId] 2053812887 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6268]  * "[IP] 26.12.205.64 [Port] 0 [Flags] 2 [Guid] 1423475389 [EditorId] 1423475389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [712]  * "[IP] 172.28.64.197 [Port] 0 [Flags] 2 [Guid] 2053812887 [EditorId] 2053812887 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6268]  * "[IP] 172.28.64.197 [Port] 0 [Flags] 2 [Guid] 1423475389 [EditorId] 1423475389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [712] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6268] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -141,13 +141,13 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001632 seconds.
+Registered in 0.001743 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -156,23 +156,22 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.569 seconds
-Domain Reload Profiling: 1242ms
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1246ms
 	BeginReloadAssembly (149ms)
 	RebuildCommonClasses (6ms)
 	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (146ms)
-		TypeCache.Refresh (282ms)
-			TypeCache.ScanAssembly (263ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (147ms)
+		TypeCache.Refresh (288ms)
+			TypeCache.ScanAssembly (268ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (570ms)
+	FinalizeReload (569ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (127ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (126ms)
 			ProcessInitializeOnLoadMethodAttributes (201ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
@@ -197,65 +196,83 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.482 seconds
-Domain Reload Profiling: 1076ms
-	BeginReloadAssembly (260ms)
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1155ms
+	BeginReloadAssembly (265ms)
 		DisableScriptedObjects (11ms)
 		CreateAndSetChildDomain (37ms)
 	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (225ms)
-		TypeCache.Refresh (20ms)
-			TypeCache.ScanAssembly (9ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (258ms)
+		TypeCache.Refresh (23ms)
+			TypeCache.ScanAssembly (12ms)
 		AnalyzeDomain (10ms)
 			BuildScriptInfoCaches (8ms)
-	FinalizeReload (484ms)
+	FinalizeReload (517ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (98ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (6ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 512 unused Assets / (127.1 KB). Loaded Objects now: 1208.
-Memory consumption went from 186.5 MB to 186.4 MB.
-Total: 3.220800 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.019700 ms MarkObjects: 2.823200 ms  DeleteObjects: 0.114800 ms)
+Unloading 512 unused Assets / (121.7 KB). Loaded Objects now: 1208.
+Memory consumption went from 186.8 MB to 186.7 MB.
+Total: 3.123900 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.020300 ms MarkObjects: 2.752100 ms  DeleteObjects: 0.112300 ms)
 
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-03T06:00:00.4426109Z
-  Time since last request: 464.1749423 seconds.
-  importAddress: GUID: 40c896048c6b52f4da7d32fabc007099 - Path: Assets/IndieMarc/Library - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 40c896048c6b52f4da7d32fabc007099 - Path: Assets/IndieMarc/Library - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 40c896048c6b52f4da7d32fabc007099' -> (Import Result ID: 'f530bda9fbd005d658663280b1fed6a2') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed9ea3f3c955dd2902da460d4d910224 DependenciesID=77c9e09e21f33888405d7bfebd1a7b94 StaticDependenciesID=c6cf8dfb3171814f407c789d20224878 
+  Time of request: 2026-10-03T06:30:49.8213178Z
+  Time since last request: 2313.52481910000006 seconds.
+  importAddress: GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9272c368c2ea4004d93dd9539f956312' -> (Import Result ID: '17e4cc63ea989b49f595090644722a86') in 0.101 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4735f371f2dd44b6b6204f2bf7485ed DependenciesID=bbac614678826b45f166eaaac5ac6042 StaticDependenciesID=8db71690153a51ace3fdbb53ff99f794 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-03T06:00:00.498228Z
-  Time since last request: 0.0000997 seconds.
+  Time of request: 2026-10-03T06:30:49.9232027Z
+  Time since last request: 0.0000894 seconds.
+  importAddress: GUID: 063491c5039ab6b4ead24f95f52641b5 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 063491c5039ab6b4ead24f95f52641b5 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 063491c5039ab6b4ead24f95f52641b5' -> (Import Result ID: 'f6b52124646e5e784a7f204fe809fba1') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e159c863bb24f43321675b9487b92855 DependenciesID=2ee03b27d18132bdcd4d43ee31fefae4 StaticDependenciesID=7160a1f819c3f4116c6f18534128b014 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T06:30:49.9291195Z
+  Time since last request: 0.000293 seconds.
+  importAddress: GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1' -> (Import Result ID: 'f4c877b3bbd1d7ddcc4fff4c487f13da') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca63c1ead4eaeebb8b8c672a17b6def9 DependenciesID=0a900aba5b59680be06becba3bc4c715 StaticDependenciesID=6ac302f37c11e1d3cd97372315a50e0a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T06:30:49.9350433Z
+  Time since last request: 0.0002179 seconds.
   importAddress: GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
 Importing 'GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 230ee21eea18d46e48f6038641c438b7' -> (Import Result ID: '7f0cd7f95e8e06bf62d0e6517be46e2f') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b00114b4f47c9b49345bad2183d7621 DependenciesID=4cd3dfbd1b6ac66cec968a5d2e99f386 StaticDependenciesID=96d7cd147883f8035da14a777d3a6334 
+Imported 'GUID: 230ee21eea18d46e48f6038641c438b7' -> (Import Result ID: '9f4c04d6d10be9218f1b1743a46857af') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=475ec2234bc8c07949b29c55ad79542a DependenciesID=2eee745eaa004b2304b6a1669009bd0a StaticDependenciesID=ca6a2df3d7d29396114604d47feed316 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2020 ms: Could not connect to server
-Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 2050 ms: Could not connect to server
-Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 4099 ms: Could not connect to server
 ========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (Unknown). Loaded Objects now: 1210.
-Memory consumption went from 187.0 MB to 187.0 MB.
-Total: 5.418700 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.016200 ms MarkObjects: 5.039500 ms  DeleteObjects: 0.003800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Received Import Request.
+  Time of request: 2026-10-03T06:30:49.943397Z
+  Time since last request: 0.000217 seconds.
+  importAddress: GUID: 1d098f5e2d51f904680c81895d2c02b1 - Path: Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1d098f5e2d51f904680c81895d2c02b1 - Path: Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1d098f5e2d51f904680c81895d2c02b1' -> (Import Result ID: '0f102fc937454f30a2dee706e35f0df2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb9377a638d41b4017beff698af62bd7 DependenciesID=b85672e4f77deb429fb1665dbe8aea0e StaticDependenciesID=230570ed0a56f43d19b2fc591594b7ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2012 ms: Could not connect to server
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 2043 ms: Could not connect to server
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 4095 ms: Could not connect to server
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server

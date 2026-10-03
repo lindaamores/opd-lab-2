@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T06:00:00.0836118Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T06:30:49.1181254Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16087 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-03T06:00:00Z
+Date: 2026-10-03T06:30:49Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1736, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              a74746203a8943eb8179f49f096208c5
+  Correlation Id:          60d77bed69e67bae64867d1c62a17d71
+  External correlation Id: 6434033586693745503
+  Machine Id:              3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T06:30:49.1469309Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
@@ -19,9 +30,9 @@ C:/Users/Sun/Documents/GitHub/opd-lab-2
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-52768
+53814
 -parentPid
-11288
+3256
 -analyticsCloudUserId
 10171656062424
 -analyticsLocalProjectId
@@ -42,21 +53,10 @@ LicenseClient-Sun
 -asset-garbage-collectors
 1
 -force-d3d12
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1736, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 -name
 AssetImport
-[Licensing::Module] LicensingClient has failed validation; ignoring
 Successfully changed project path to: C:/Users/Sun/Documents/GitHub/opd-lab-2
 C:/Users/Sun/Documents/GitHub/opd-lab-2
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              8af2d62ec5b94c00a46bba58c747af22
-  Correlation Id:          60d77bed69e67bae64867d1c62a17d71
-  External correlation Id: 2985464504046537280
-  Machine Id:              3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T06:00:00.1123893Z"
-[Licensing::Module] Licensing Background thread has ended after 0.03s
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -94,14 +94,14 @@ C:/Users/Sun/Documents/GitHub/opd-lab-2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [12736]  Target information:
+Player connection [12224]  Target information:
 
-Player connection [12736]  * "[IP] 26.12.205.64 [Port] 0 [Flags] 2 [Guid] 1112203483 [EditorId] 1112203483 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12224]  * "[IP] 26.12.205.64 [Port] 0 [Flags] 2 [Guid] 3638158377 [EditorId] 3638158377 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12736]  * "[IP] 172.28.64.197 [Port] 0 [Flags] 2 [Guid] 1112203483 [EditorId] 1112203483 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12224]  * "[IP] 172.28.64.197 [Port] 0 [Flags] 2 [Guid] 3638158377 [EditorId] 3638158377 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12736] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [12736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12224] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -141,13 +141,13 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001738 seconds.
+Registered in 0.001906 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -156,23 +156,24 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.553 seconds
-Domain Reload Profiling: 1201ms
-	BeginReloadAssembly (147ms)
-	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (395ms)
-		LoadAssemblies (145ms)
-		TypeCache.Refresh (267ms)
-			TypeCache.ScanAssembly (248ms)
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (153ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (150ms)
+		TypeCache.Refresh (269ms)
+			TypeCache.ScanAssembly (251ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (554ms)
+	FinalizeReload (577ms)
 		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (196ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -196,47 +197,38 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.509 seconds
-Domain Reload Profiling: 1099ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (262ms)
 		DisableScriptedObjects (10ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (226ms)
-		TypeCache.Refresh (22ms)
-			TypeCache.ScanAssembly (11ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (230ms)
+		TypeCache.Refresh (23ms)
+			TypeCache.ScanAssembly (12ms)
 		AnalyzeDomain (10ms)
 			BuildScriptInfoCaches (8ms)
-	FinalizeReload (510ms)
+	FinalizeReload (512ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (6ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 512 unused Assets / (125.2 KB). Loaded Objects now: 1208.
-Memory consumption went from 186.3 MB to 186.2 MB.
-Total: 3.255000 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.019000 ms MarkObjects: 2.878300 ms  DeleteObjects: 0.117100 ms)
+Unloading 512 unused Assets / (122.8 KB). Loaded Objects now: 1208.
+Memory consumption went from 186.8 MB to 186.7 MB.
+Total: 3.298500 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.017800 ms MarkObjects: 2.924000 ms  DeleteObjects: 0.113600 ms)
 
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2023 ms: Could not connect to server
-Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 2028 ms: Could not connect to server
-Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 4064 ms: Could not connect to server
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (Unknown). Loaded Objects now: 1208.
-Memory consumption went from 185.9 MB to 185.9 MB.
-Total: 5.297100 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.015000 ms MarkObjects: 4.913200 ms  DeleteObjects: 0.004400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2028 ms: Could not connect to server
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 2057 ms: Could not connect to server
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 4097 ms: Could not connect to server
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server

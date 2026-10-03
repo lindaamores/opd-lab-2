@@ -1,24 +1,24 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 2672)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 2984)
-VBCSCompiler prewarm took 2.31 ms
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 10992)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 2328)
+VBCSCompiler prewarm took 2.26 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T05:59:53.8216293Z"
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun" at "2026-10-03T06:30:43.1339593Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16087 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-03T05:59:53Z
+Date: 2026-10-03T06:30:43Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1736, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              323fa35c305c4cd58405ea544b953b96
+  Session Id:              1ae60383bd14481d8358c9078d506d69
   Correlation Id:          60d77bed69e67bae64867d1c62a17d71
-  External correlation Id: 1533211394863933138
+  External correlation Id: 3972414865151738584
   Machine Id:              3RZQjNdPRGGJ2uRsxrt1DKsgIpw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T05:59:53.8451722Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sun" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sun-notifications" at "2026-10-03T06:30:43.16184Z"
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated the access token 6dW_yM0Yf-...
 [Licensing::Client] Successfully resolved entitlement details
@@ -44,7 +44,7 @@ Date: 2026-10-03T05:59:53Z
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Module] Licensing Background thread has ended after 0.03s
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
@@ -100,26 +100,18 @@ C:/Users/Sun/Documents/GitHub/opd-lab-2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [11284]  Target information:
+Player connection [14300]  Target information:
 
-Player connection [11284]  * "[IP] 26.12.205.64 [Port] 55504 [Flags] 2 [Guid] 1603294732 [EditorId] 1603294732 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14300]  * "[IP] 26.12.205.64 [Port] 55504 [Flags] 2 [Guid] 345777296 [EditorId] 345777296 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11284]  * "[IP] 172.28.64.197 [Port] 55504 [Flags] 2 [Guid] 1603294732 [EditorId] 1603294732 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14300]  * "[IP] 172.28.64.197 [Port] 55504 [Flags] 2 [Guid] 345777296 [EditorId] 345777296 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0B5J48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14300] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14300] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-Initialising UDS system complete:
-  - System type: Client
-  - Resource namespace: 3e2c964d8410f380de6c0b3e7b65af7d
-  - Shared memory size: 1073741824
-  - Command buffer id: 1052576
-  - Command buffer size: 8192
-  - Hashmap size: 4194304
-  - Service connected: false
-[Package Manager] Connected to IPC stream "Upm-11288" after 0.2 seconds.
+[Package Manager] Connected to IPC stream "Upm-3256" after 0.2 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-49HP-U2MM-CQ84-ABGQ-XXXX
@@ -131,6 +123,14 @@ Initialising UDS system complete:
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 3e2c964d8410f380de6c0b3e7b65af7d
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
 Library Redirect Path: Library/
 Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
 Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Sun/Documents/GitHub/opd-lab-2Serialized file "ProjectSettings/AudioManager.asset" contains a AudioManager object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
@@ -168,7 +168,7 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -176,29 +176,29 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000803 seconds.
+Registered in 0.000843 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.572 seconds
-Domain Reload Profiling: 973ms
-	BeginReloadAssembly (103ms)
-		CreateAndSetChildDomain (19ms)
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 988ms
+	BeginReloadAssembly (105ms)
+		CreateAndSetChildDomain (16ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (83ms)
-		TypeCache.Refresh (164ms)
-			TypeCache.ScanAssembly (154ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (88ms)
+		TypeCache.Refresh (162ms)
+			TypeCache.ScanAssembly (152ms)
 		AnalyzeDomain (0ms)
-	FinalizeReload (573ms)
+	FinalizeReload (585ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-49HP-U2MM-CQ84-ABGQ-XXXX
@@ -260,165 +260,96 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.ext.nunit@2.1.0 (location: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.00 seconds
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/Assets' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/Library' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/Logs' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/opd-lab-2' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/Packages' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/ProjectSettings' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
-A meta data file (.meta) exists but its folder 'Assets/IndieMarc/UserSettings' can't be found, and has been created. Empty directories cannot be stored in version control, so it's assumed that the meta data file is for an empty directory in version control. When moving or deleting folders outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/Sun/Documents/GitHub/opd-lab-2
-ExitCode: 0 Duration: 0s102ms
+ExitCode: 0 Duration: 0s89ms
 [209/222    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.08 seconds), 1 items updated, 222 evaluated
+*** Tundra build success (0.07 seconds), 1 items updated, 222 evaluated
 Total cache size 4191676
-AssetDatabase: script compilation time: 0.463652s
-Total cache size after purge 4191676, took 00:00:00.0149166
+AssetDatabase: script compilation time: 0.442338s
+Total cache size after purge 4191676, took 00:00:00.0129851
 Begin MonoManager ReloadAssembly
-Importing 'GUID: 40c896048c6b52f4da7d32fabc007099 - Path: Assets/IndieMarc/Library' with importer (DefaultImporter)
-Imported 'GUID: 40c896048c6b52f4da7d32fabc007099' -> (Import Result ID: 'ae07bb00fe379e2c464ac4f1651be070') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=b04461a07bcee2ca0770e036a7fbac30 DependenciesID=6bb5f14f2ba37d5d883f514bf444e216 StaticDependenciesID=5dfbcbf34db8d5a80937dc004fad2eef 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.369 seconds
-Domain Reload Profiling: 764ms
-	BeginReloadAssembly (187ms)
-		DisableScriptedObjects (15ms)
-		CreateAndSetChildDomain (51ms)
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (173ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (7ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (146ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (143ms)
 		TypeCache.Refresh (11ms)
 			TypeCache.ScanAssembly (6ms)
 		AnalyzeDomain (7ms)
 			BuildScriptInfoCaches (6ms)
-	FinalizeReload (370ms)
+	FinalizeReload (388ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
 Starting new worker id: 0 with log in C:/Users/Sun/Documents/GitHub/opd-lab-2/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=63a661668bb3bd64bb500fe66a991c4b): Total: 1.569 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=6b59f4489e3dd9c4488377ca90c6ed59): Total: 1.369 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
-		Imports: total=1 (actual=1, local cache=0, cache server=0)
-		Asset DB Process Time: managed=2 ms, native=528 ms
-		Asset DB Callback time: managed=145 ms, native=7 ms
-		Scripting: domain reloads=1, domain reload time=411 ms, compile time=466 ms, other=7 ms
-		Project Asset Count: scripts=196, non-scripts=196
-		Asset File Changes: new=1, changed=1, moved=0, deleted=49
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=493 ms
+		Asset DB Callback time: managed=16 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=400 ms, compile time=445 ms, other=6 ms
+		Project Asset Count: scripts=189, non-scripts=195
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 6.245ms
-	ApplyChangesToAssetFolders: 0.352ms
-	Scan: 57.541ms
-	Collect global state as custom dependencies: 5.624ms
-	OnSourceAssetsModified: 0.668ms
-	CategorizeScriptCompilationAssets: 4.108ms
-	ProcessAssetsWithTransientArtifactChanges: 4.449ms
-	CategorizeAssets: 2.211ms
-	CompileScripts: 466.083ms
-	ImportOutOfDateAssets: 385.217ms (370.828ms without children)
-		ImportManagerImport: 11.901ms (2.438ms without children)
-		UnloadImportedAssets: 0.985ms
-		ImportSchedulerStart: 1.451ms
-	PostProcessAllAssets: 146.422ms
-		VCAutoAddAssetPostprocess 0.683ms
-		LocalizationDatabase.AssetDatabasePostprocessCallback 0.051ms
-		MonoPostProcessAllAssets: 144.755ms
-			SyncVS.PostprocessSyncProject 81.504ms
-			AssetPostprocessor.OnPostprocessAllAssets 27.999ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 7.659ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.162ms
-			AssetChangedListener.OnPostprocessAllAssets 5.752ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.323ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.075ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.690ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.637ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.446ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.433ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.230ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.226ms
-			AssetEvents.OnPostprocessAllAssets 0.182ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.158ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.151ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.143ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.116ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.114ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.106ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.084ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.064ms
-	PostAssetChangesProfiler: 0.809ms
-	UnloadStreamsBegin: 1.077ms
-	PersistCurrentRevisions: 0.116ms
-	GenerateScriptTypeHashes: 0.205ms
-	GenerateScriptTypeSerializationHashes: 0.221ms
-	Untracked: 485.716ms
+	InvokePackagesCallback: 6.812ms
+	ApplyChangesToAssetFolders: 0.348ms
+	Scan: 25.899ms
+	Collect global state as custom dependencies: 5.687ms
+	CategorizeScriptCompilationAssets: 4.130ms
+	ProcessAssetsWithTransientArtifactChanges: 3.637ms
+	CategorizeAssets: 2.231ms
+	CompileScripts: 445.199ms
+	ImportOutOfDateAssets: 391.045ms (388.571ms without children)
+		UnloadImportedAssets: 0.977ms
+		ImportSchedulerStart: 1.447ms
+	PostProcessAllAssets: 16.974ms
+		MonoPostProcessAllAssets: 16.932ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.050ms
+			SyncVS.PostprocessSyncProject 2.783ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.706ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.618ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.201ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.188ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.135ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.063ms
+	UnloadStreamsBegin: 1.421ms
+	GenerateScriptTypeHashes: 0.223ms
+	GenerateScriptTypeSerializationHashes: 0.239ms
+	Untracked: 463.546ms
 
 Application.AssetDatabase Initial Refresh End
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Scanning for USB devices : 0.419ms
+Scanning for USB devices : 0.409ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-opd-lab-2
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 LightingSettings: switching bake backend from 2 to 1.
 Loaded scene 'Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity'
-	Deserialize:            4.516 ms
-	Integration:            35.378 ms
-	Integration of assets:  0.013 ms
-	Thread Wait Time:       0.030 ms
-	Total Operation Time:   39.936 ms
-Unloading 530 unused Assets / (1.2 MB). Loaded Objects now: 1534.
-Memory consumption went from 259.2 MB to 258.1 MB.
-Total: 4.050100 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.019500 ms MarkObjects: 3.515100 ms  DeleteObjects: 0.235900 ms)
+	Deserialize:            4.353 ms
+	Integration:            31.022 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   35.419 ms
+Unloading 528 unused Assets / (0.7 MB). Loaded Objects now: 1534.
+Memory consumption went from 258.1 MB to 257.4 MB.
+Total: 4.065200 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.022000 ms MarkObjects: 3.296900 ms  DeleteObjects: 0.223200 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 [LAYOUT] About to save layout C:\Users\Sun\Documents\GitHub\opd-lab-2\UserSettings\Layouts\default-6000.dwlt
@@ -426,46 +357,6 @@ Total: 4.050100 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.019500 m
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
 Unity is not designed to run with Administrator privileges.
 
 With elevated access, scripts in your project can modify system files, registry settings, or protected areas, even accidentally.
@@ -474,76 +365,45 @@ This could make your system unstable or unbootable.
 Restart as a standard user for the safest experience.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 6.721 seconds
-	Project init time: 				3.703 seconds
+[Project] Loading completed in 11.397 seconds
+	Project init time: 				3.616 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.191 seconds
-		Asset Database init time: 		0.530 seconds
-		Global illumination init time: 	0.003 seconds
-		Assemblies load time: 			0.999 seconds
-		Unity extensions init time: 	0.001 seconds
-		Asset Database refresh time: 	1.569 seconds
-	Scene opening time: 			0.820 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791007198397,"processId":11288,"projectLoad":6.7214659,"projectInit":3.7027876,"templateInit":0.0,"packageManagerInit":0.1907782,"assetDatabaseInit":0.5295658,"globalIlluminationInit":0.0034516,"assembliesLoad":0.9993725,"unityExtensionsInit":0.0013051,"assetDatabaseRefresh":1.5691580999999999,"sceneOpening":0.8200005}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791007198397,"processId":11288,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
-Worker ready: AssetImportWorkerHW0 0
+		Package Manager init time: 		0.181 seconds
+		Asset Database init time: 		0.563 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.016 seconds
+		Unity extensions init time: 	0.002 seconds
+		Asset Database refresh time: 	1.369 seconds
+	Scene opening time: 			0.818 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791009047636,"processId":3256,"projectLoad":11.3972499,"projectInit":3.6160899,"templateInit":0.0,"packageManagerInit":0.1807855,"assetDatabaseInit":0.5633427,"globalIlluminationInit":0.001989,"assembliesLoad":1.0164388,"unityExtensionsInit":0.00202,"assetDatabaseRefresh":1.3688763,"sceneOpening":0.8182773}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791009047636,"processId":3256,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/Sun/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.004s, timestamps: [7.337 - 7.342]
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at C:/Users/Sun/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.004s, timestamps: [12.007 - 12.011]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2030 ms: Could not connect to server
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated access token: "6dW_yM0Y"... (expires: 2026-10-01T21:32:33Z)
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
 Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 via 127.0.0.1 after 2026 ms: Could not connect to server
 Starting new worker id: 1 with log in C:/Users/Sun/Documents/GitHub/opd-lab-2/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 40c896048c6b52f4da7d32fabc007099 - Path: Assets/IndieMarc/Library - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f530bda9fbd005d658663280b1fed6a2') in 0.0553158 seconds
-[Worker0] Imported GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f0cd7f95e8e06bf62d0e6517be46e2f') in 0.029051 seconds
-Curl error 7: Failed to connect to api.unity.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
+Starting new worker id: 2 with log in C:/Users/Sun/Documents/GitHub/opd-lab-2/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17e4cc63ea989b49f595090644722a86') in 0.1015318 seconds
+[Worker0] Imported GUID: 063491c5039ab6b4ead24f95f52641b5 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f6b52124646e5e784a7f204fe809fba1') in 0.0054991 seconds
+[Worker0] Imported GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f4c877b3bbd1d7ddcc4fff4c487f13da') in 0.0055735 seconds
+[Worker0] Imported GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9f4c04d6d10be9218f1b1743a46857af') in 0.0080076 seconds
+[Worker0] Imported GUID: 1d098f5e2d51f904680c81895d2c02b1 - Path: Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0f102fc937454f30a2dee706e35f0df2') in 0.0158692 seconds
+Curl error 7: Failed to connect to api.unity.com port 443 via 127.0.0.1 after 2019 ms: Could not connect to server
 Worker ready: AssetImportWorkerHW1 1
-[Package Manager Window] Error while getting auth code: System.InvalidOperationException: Failed to call Unity ID to get auth code. State=DONE_FAILED, ResponseCode=0, URL=https://api.unity.com/v1/oauth2/authorize
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:OnOperationError (string)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:<GetAuthCodeAndAccessToken>b__22_0 (UnityEditor.Connect.UnityOAuth/AuthCodeResponse)
-UnityEditor.Connect.UnityOAuth/<>c__DisplayClass7_0:<GetAuthorizationCodeAsync>b__0 (UnityEditor.IAsyncHTTPClient)
-UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
-
-[Package Manager Window] Error while getting product update details: Error while getting auth code: System.InvalidOperationException: Failed to call Unity ID to get auth code. State=DONE_FAILED, ResponseCode=0, URL=https://api.unity.com/v1/oauth2/authorize
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-UnityEditor.PackageManager.UI.Internal.AssetStoreClientV2/<>c__DisplayClass27_0:<FetchUpdateInfos>b__1 (UnityEditor.PackageManager.UI.Internal.UIError)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:OnOperationError (string)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:<GetAuthCodeAndAccessToken>b__22_0 (UnityEditor.Connect.UnityOAuth/AuthCodeResponse)
-UnityEditor.Connect.UnityOAuth/<>c__DisplayClass7_0:<GetAuthorizationCodeAsync>b__0 (UnityEditor.IAsyncHTTPClient)
-UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
-
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2044 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2015 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2031 ms: Could not connect to server
-TrimDiskCacheJob: Current cache size 0mb
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2039 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2054 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2043 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2056 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2036 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2038 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2054 ms: Could not connect to server
-MonoPathRemapper: Attempts to remap: 4706; Successful remaps: 1422
+Worker ready: AssetImportWorkerHW2 2
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2064 ms: Could not connect to server
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2035 ms: Could not connect to server
+MonoPathRemapper: Attempts to remap: 4464; Successful remaps: 1422
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2059 ms: Could not connect to server
 Serialized file version minimum: 23, current 23
 [LAYOUT] About to save layout C:\Users\Sun\Documents\GitHub\opd-lab-2\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/Sun/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-Importing 'GUID: 063491c5039ab6b4ead24f95f52641b5 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 063491c5039ab6b4ead24f95f52641b5' -> (Import Result ID: 'bd33bc8660dc06d9932ad13a34980fc4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=15e100224ad07def022def641962d0d1 DependenciesID=aebaaff9b97fa0e1296967e822038d17 StaticDependenciesID=2bf5f2d3d99e991568ac59096cebab89 
-Asset Pipeline Refresh (id=38b8c2b38bec5a549b705aef6e9a7914): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -558,17 +418,13 @@ Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000002E8C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000350C, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000002E6C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000350C, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000002E8C, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000002E6C, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 4720
+debugger-agent: Unable to listen on 4736
 VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791007470453,"processId":11288,"allocatedMemory":11892958,"memoryLabels":[{"Default":184520},{"Permanent":15516},{"NewDelete":73729},{"Thread":4206072},{"Manager":34112},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848781},{"Material":68},{"GfxDevice":62040},{"GfxThread":1536},{"Animation":1200},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":157704},{"Input":42840},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1227112},{"BaseObject":48912},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":10362},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":583012},{"StaticString":3808},{"Utility":2674994},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8048},{"CloudService":7440},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":1001},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267542},{"EditorUtility":140737},{"VersionControl":8},{"Undo":931},{"AssetDatabase":707465},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36114},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":256},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3548},{"Windowing":456},{"Licensing":12771},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791009061334,"processId":3256,"allocatedMemory":11801037,"memoryLabels":[{"Default":175288},{"Permanent":15516},{"NewDelete":71361},{"Thread":4205856},{"Manager":34112},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848781},{"Material":68},{"GfxDevice":62040},{"GfxThread":768},{"Animation":1200},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":118552},{"Input":42840},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1227112},{"BaseObject":48912},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":7393},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":569162},{"StaticString":3808},{"Utility":2674970},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8048},{"CloudService":7584},{"WebRequest":592},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":953},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267480},{"EditorUtility":116225},{"VersionControl":8},{"Undo":931},{"AssetDatabase":707385},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36114},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":256},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3548},{"Windowing":456},{"Licensing":12771},{"AssetReference":32},{"IPCStream":32}]}
