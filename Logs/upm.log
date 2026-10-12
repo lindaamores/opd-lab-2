@@ -1,28 +1,28 @@
-[2026-10-03T06:34:32.476Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 11220 --ipc-path Unity-Upm-11220 -l 2 --log-file C:\\Users\\Sun\\Documents\\GitHub\\opd-lab-2/Logs/upm.log
-[2026-10-03T06:34:32.478Z][INFO] Detected environment variables:
-  HTTPS_PROXY=http://127.0.0.1:2080/
-  HTTP_PROXY=http://127.0.0.1:2080/
-  NO_PROXY=localhost,127.0.0.1,::1
-[2026-10-03T06:34:32.497Z][INFO] IPC server started (IPC path=Unity-Upm-11220).
-[2026-10-03T06:34:32.497Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-11220.
-[2026-10-03T06:34:34.176Z][INFO] project:list-packages <-- Request received
+[2026-10-11T17:10:52.514Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 52169 --ipc-path /tmp/Unity-Upm-52169.sock -l 2 --log-file /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Logs/upm.log
+[2026-10-11T17:10:52.571Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-52169.sock).
+[2026-10-11T17:10:52.572Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-52169.
+[2026-10-11T17:10:55.275Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-03T06:34:34.203Z][INFO] config:project:get-registries <-- Request received
+[2026-10-11T17:10:55.521Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-03T06:34:34.220Z][INFO] config:project:get-registries --> 200 (17 ms)
-[2026-10-03T06:34:34.269Z][INFO] project:list-packages --> 200 (93 ms)
-[2026-10-03T06:34:34.301Z][INFO] project:list-packages <-- Request received
+[2026-10-11T17:10:55.551Z][INFO] config:project:get-registries --> 200 (35 ms)
+[2026-10-11T17:10:55.685Z][INFO] project:list-packages --> 200 (410 ms)
+[2026-10-11T17:10:55.821Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-03T06:34:34.336Z][INFO] project:list-packages --> 200 (35 ms)
-[2026-10-03T06:34:35.549Z][INFO] project:list-packages <-- Request received
+[2026-10-11T17:10:56.085Z][INFO] project:list-packages --> 200 (264 ms)
+[2026-10-11T17:11:01.649Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-03T06:34:35.579Z][INFO] project:list-packages <-- Request received
+[2026-10-11T17:11:01.770Z][INFO] project:list-packages --> 200 (121 ms)
+[2026-10-11T17:11:01.794Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-03T06:34:35.592Z][INFO] project:list-packages --> 200 (43 ms)
-[2026-10-03T06:34:35.613Z][INFO] project:list-packages --> 200 (34 ms)
-[2026-10-03T06:34:35.625Z][INFO] config:project:get-registries <-- Request received
+[2026-10-11T17:11:01.926Z][INFO] project:list-packages --> 200 (132 ms)
+[2026-10-11T17:11:02.074Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-03T06:34:35.627Z][INFO] config:project:get-registries --> 200 (3 ms)
-[2026-10-03T06:34:36.711Z][INFO] project:list-packages <-- Request received
+[2026-10-11T17:11:02.080Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-10-11T17:11:06.269Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-03T06:34:36.746Z][INFO] project:list-packages --> 200 (35 ms)
+[2026-10-11T17:11:06.429Z][INFO] project:list-packages --> 200 (160 ms)
+[2026-10-11T17:11:09.364Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-11T17:11:10.860Z][INFO] project:list-packages --> 200 (1496 ms)
+[2026-10-11T17:11:14.194Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
