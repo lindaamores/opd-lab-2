@@ -1,34 +1,291 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Sun/Documents/GitHub/opd-lab-2/Packages/manifest.json
+    m_FilePath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639265792252106117
-    m_Hash: 3386831151
+      ticks: 639273270598222001
+    m_Hash: 2540909784
   m_LockFileStatus:
-    m_FilePath: C:/Users/Sun/Documents/GitHub/opd-lab-2/Packages/packages-lock.json
+    m_FilePath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639265792252106117
-    m_Hash: 2724009991
+      ticks: 639273270598271386
+    m_Hash: 160462920
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Sun/Documents/GitHub/opd-lab-2/Packages
+m_ProjectPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Packages
 m_EditorVersion: 6000.6.3f1 (45d8eee7de74)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.sprite@26bcb5e737a2
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 26bcb5e737a25a70ae7074ae3536fa84e9b09aa2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.feature.2d@2.0.2
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 2.0.2
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.feature.2d@11724ae7e5b5
+  assetPath: Packages/com.unity.feature.2d
+  name: com.unity.feature.2d
+  displayName: 2D
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: Import images including multi-layered Photoshop files as Sprites and configure them to create 2D games. Create freeform, tile-based and spline-based 2D game worlds. Create frame-by-frame and bone-based animated characters. Integrated with 2D physics to support simulations with colliders and joints. Supports the needs of a range of 2D art styles, including pixel art.
+  errors: []
+  versions:
+    all:
+    - 2.0.2
+    compatible:
+    - 2.0.2
+    recommended: 2.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.animation
+    version: default
+  - name: com.unity.2d.pixel-perfect
+    version: default
+  - name: com.unity.2d.psdimporter
+    version: default
+  - name: com.unity.2d.sprite
+    version: default
+  - name: com.unity.2d.spriteshape
+    version: default
+  - name: com.unity.2d.tilemap
+    version: default
+  - name: com.unity.2d.tilemap.extras
+    version: default
+  - name: com.unity.2d.aseprite
+    version: default
+  - name: com.unity.2d.tooling
+    version: default
+  resolvedDependencies:
+  - name: com.unity.2d.animation
+    version: 16.0.1
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.2d.pixel-perfect
+    version: 6.0.0
+  - name: com.unity.2d.psdimporter
+    version: 15.0.1
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.2d.spriteshape
+    version: 16.0.0
+  - name: com.unity.2d.tilemap.extras
+    version: 9.0.1
+  - name: com.unity.2d.aseprite
+    version: 6.0.0
+  - name: com.unity.2d.tooling
+    version: 4.0.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/2DFeature.html"}'
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 11724ae7e5b5e94c46d262628a511d368b4c2106
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.2
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 1
   isInstalled: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -41,10 +298,66 @@ m_ResolvedPackages:
   description: The JetBrains Rider Editor package provides an integration for using the JetBrains Rider IDE as a code editor for Unity. It adds support for generating .csproj files for code completion and auto-discovery of installations.
   errors: []
   versions:
-    all: []
-    compatible: []
-    recommended: 
-    deprecated: []
+    all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
+    - 3.0.27
+    - 3.0.28
+    - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
+    - 3.0.40
+    - 3.1.0
+    compatible:
+    - 3.0.38
+    - 3.0.39
+    - 3.0.40
+    - 3.1.0
+    recommended: 3.0.40
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -66,9 +379,9 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638938045127600000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -106,7 +419,7 @@ m_ResolvedPackages:
   fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 
+    minimumPackageVersion: 3.0.38
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -120,7 +433,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -133,9 +446,41 @@ m_ResolvedPackages:
   description: Code editor integration for supporting Visual Studio as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.
   errors: []
   versions:
-    all: []
-    compatible: []
-    recommended: 
+    all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
+    - 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
+    - 2.0.28
+    compatible:
+    - 2.0.26
+    - 2.0.27
+    - 2.0.28
+    recommended: 2.0.28
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -164,9 +509,9 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 639014773899080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -204,7 +549,7 @@ m_ResolvedPackages:
   fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 
+    minimumPackageVersion: 2.0.26
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -218,7 +563,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -308,7 +653,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -404,7 +749,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -494,7 +839,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -588,7 +933,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -678,7 +1023,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -768,7 +1113,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -858,7 +1203,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -952,7 +1297,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.director
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1050,7 +1395,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1140,7 +1485,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1230,7 +1575,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1320,7 +1665,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1410,7 +1755,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1500,7 +1845,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1594,7 +1939,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.physicscore2d
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.physicscore2d
   assetPath: Packages/com.unity.modules.physicscore2d
   name: com.unity.modules.physicscore2d
   displayName: Physics Core 2D
@@ -1684,7 +2029,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1778,7 +2123,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1868,7 +2213,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1966,7 +2311,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.tetgen
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.tetgen
   assetPath: Packages/com.unity.modules.tetgen
   name: com.unity.modules.tetgen
   displayName: Tetgen
@@ -2056,7 +2401,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2152,7 +2497,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.timelinefoundation
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.timelinefoundation
   assetPath: Packages/com.unity.modules.timelinefoundation
   name: com.unity.modules.timelinefoundation
   displayName: Timeline Foundation
@@ -2246,7 +2591,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2336,7 +2681,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2450,7 +2795,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2540,7 +2885,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2638,7 +2983,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2728,7 +3073,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2826,7 +3171,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2924,7 +3269,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3022,7 +3367,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3136,7 +3481,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -3248,7 +3593,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3342,7 +3687,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.video
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3444,7 +3789,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3534,7 +3879,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3636,7 +3981,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3730,7 +4075,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3820,7 +4165,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.8.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.test-framework@80f691d4262b
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.test-framework@80f691d4262b
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3924,7 +4269,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.1.0
   source: 2
-  resolvedPath: C:\Users\Sun\Documents\GitHub\opd-lab-2\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4004,6 +4349,2251 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.animation@16.0.1
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 16.0.1
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.animation@899988b542b9
+  assetPath: Packages/com.unity.2d.animation
+  name: com.unity.2d.animation
+  displayName: 2D Animation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.
+  errors: []
+  versions:
+    all:
+    - 1.0.15-preview.1
+    - 1.0.15-preview.2
+    - 1.0.15-preview.3
+    - 1.0.15-preview.4
+    - 1.0.15-preview.5
+    - 1.0.16-preview
+    - 1.0.16-preview.1
+    - 1.0.16-preview.2
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.2.0-preview.1
+    - 2.2.0-preview.4
+    - 2.2.0-preview.5
+    - 2.2.1-preview.1
+    - 2.2.1-preview.2
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.8
+    - 3.1.0
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+    - 3.2.6
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11
+    - 3.2.13
+    - 3.2.14
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 3.2.18
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.4
+    - 4.2.5
+    - 4.2.6
+    - 4.2.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.0.8
+    - 5.0.9
+    - 5.0.10
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.1
+    - 5.2.3
+    - 5.2.4
+    - 5.2.6
+    - 5.2.7
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.1
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.7
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
+    - 7.0.5
+    - 7.0.6
+    - 7.0.7
+    - 7.0.8
+    - 7.0.9
+    - 7.0.10
+    - 7.0.11
+    - 7.0.12
+    - 7.0.13
+    - 7.1.0
+    - 7.1.1
+    - 7.1.2
+    - 7.2.0
+    - 8.0.0-pre.3
+    - 8.0.0-pre.4
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.0.5
+    - 9.0.0-pre.1
+    - 9.0.0-pre.3
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.1.0
+    - 9.1.1
+    - 9.1.2
+    - 9.1.3
+    - 9.2.0
+    - 9.2.1
+    - 9.2.2
+    - 10.0.0-pre.1
+    - 10.0.0-pre.2
+    - 10.0.0
+    - 10.0.1
+    - 10.0.2
+    - 10.0.3
+    - 10.1.0
+    - 10.1.1
+    - 10.1.2
+    - 10.1.3
+    - 10.1.4
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.2.3
+    - 10.2.4
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 12.0.3
+    - 13.0.0
+    - 13.0.1
+    - 13.0.2
+    - 13.0.3
+    - 13.0.4
+    - 13.0.5
+    - 13.0.6
+    - 14.0.0
+    - 14.0.1
+    - 14.0.2
+    - 14.0.3
+    - 14.0.4
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
+    - 15.0.3
+    - 15.1.0
+    - 16.0.0
+    - 16.0.1
+    - 17.0.0
+    - 17.0.1
+    - 17.0.2
+    compatible:
+    - 16.0.1
+    recommended: 16.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - 2d
+  - animation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639234795937500000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@16.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 72c620dc8c96ad4620a18b1795884f670b7f5794
+    path: 
+  unityLifecycle:
+    version: 16.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix SpriteSkin bone reassignment in the Inspector leaving SpriteSkinData.boneTransformId pointing at freed memory by refreshing the slice after CacheBoneTransformIds reallocates m_BoneTransformId. (UUM-143004)\n- Fix Auto Rebind losing bone assignments for sprites with disconnected bone chains by setting the Sprite Skin''s own GameObject as the Root Bone when using Create Bones, instead of the first bone. (UUM-141613)\n- Fix Generate Weights producing all-default weights when a bone lies on a mesh edge, by not emitting the zero-area triangle that made the weight solver fail. (UUM-144911)\n- Fix editing a bone''s Name or Depth in the Skinning Editor''s Bone Inspector not being reverted by Undo/Redo. (UUM-144625)\n- Fix the Skinning Editor''s Toggle Tool Text shortcut conflicting with another shortcut by changing its default from Shift + \\` to Alt + \\`. (UUM-145680)\n- Fix Skinning Editor toolbar tool text overflowing the buttons when the window is narrowed, by stopping the tool palette from shrinking below its width and floating the right-side panels instead of letting them squeeze the toolbar. (UUM-145864)\n- Fix UnassignedReferenceException in BoneHierarchyUtilities when spriteRenderer is unassigned. (UUM-146385)\n- Fix Create Bones assigning a Root Bone to a Sprite Skin whose Sprite has no bones, which disabled the Create Bones button and reported a Bind Poses / Transforms count mismatch after the Sprite was later rigged. (UUM-146968)\n- Fix Sprite Resolver Inspector resetting the Category to \"No Category\" when selecting a Category that contains no Labels. (UUM-145993)\n- Fix the Skinning Editor allocating increasing amounts of garbage every repaint while the Visibility panel is open. (UUM-147565)\n- Fix a \"No script asset for SpriteVisibilityToolData\" warning logged when undoing in Play Mode with a character open in the Skinning Editor, by giving each editor-only Skinning Cache object its own matching-named file so Unity can resolve its script. (UUM-147151)\n- Fix IK Manager 2D and the Limb, CCD and Fabrik Solver 2D components appearing under Scripts > UnityEngine.U2D.IK in the Add Component menu instead of 2D Animation. (UUM-150280)\n\n### Changed\n- Moving a bone with the Skinning Editor''s Preview Pose tool no longer rotates and stretches the parent bone to keep the chain connected, matching how bone Transforms behave in the Scene view. (UUM-146866)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 899988b542b9740a071c9596bc865d47abdf03d7
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 16.0.1
+    minimumUnityVersion: 6000.6
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.pixel-perfect@6.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 6.0.0
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.pixel-perfect@a860cb24a0cc
+  assetPath: Packages/com.unity.2d.pixel-perfect
+  name: com.unity.2d.pixel-perfect
+  displayName: 2D Pixel Perfect
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component which ensures your pixel art remains crisp and clear at different resolutions, and stable in motion.
+
+
+    It is a single component that makes all the calculations needed to scale the viewport with resolution changes, removing the hassle from the user. The user can adjust the definition of the pixel art rendered within the camera viewport through the component settings, as well preview any changes immediately in Game view by using the Run in Edit Mode feature.'
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.1.0
+    - 5.1.1
+    - 6.0.0
+    compatible:
+    - 6.0.0
+    recommended: 6.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - pixel
+  - perfect
+  - 2D
+  - sprite
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639083815600780000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: a279c21d899aeb152b984a06bbd62c2eec43d893
+    path: 
+  unityLifecycle:
+    version: 6.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Updated minimum Unity version to 6000.5\n\n### Removed\n- Removed Pixel Perfect Camera Converter as now lives in the URP package."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: a860cb24a0ccd3450cfd7a009b379fa98c353b6f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.0.0
+    minimumUnityVersion: 6000.5.0a7
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.psdimporter@15.0.1
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 15.0.1
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.psdimporter@e02a9153d8d9
+  assetPath: Packages/com.unity.2d.psdimporter
+  name: com.unity.2d.psdimporter
+  displayName: 2D PSD Importer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big) file format. The ScriptedImporter is currently targeted for users who wants to create multi Sprite character animation using Unity 2D Animation Package.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.1.0-preview.1
+    - 1.1.0-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.3
+    - 1.2.0-preview.4
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 3.0.0
+    - 3.1.1
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    - 3.1.7
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 6.0.8
+    - 6.0.9
+    - 6.1.0
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.3
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.0.5
+    - 8.1.0
+    - 8.1.1
+    - 8.1.2
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.1.0
+    - 9.1.1
+    - 9.1.2
+    - 9.1.3
+    - 10.0.0
+    - 10.1.0
+    - 10.1.1
+    - 11.0.0
+    - 11.0.1
+    - 11.0.2
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 13.0.0
+    - 13.0.1
+    - 13.0.2
+    - 13.0.3
+    - 14.0.0
+    - 14.0.1
+    - 14.0.2
+    - 14.0.3
+    - 15.0.0
+    - 15.0.1
+    - 16.0.0
+    - 16.0.1
+    compatible:
+    - 15.0.1
+    recommended: 15.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - 2d
+  - psdimporter
+  - assetimporter
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639234795890120000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@15.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 72c620dc8c96ad4620a18b1795884f670b7f5794
+    path: 
+  unityLifecycle:
+    version: 15.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix Custom Outline and Custom Physics Outline not being saved when Sprite Mode is set to Single or Polygon. (UUM-150014)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: e02a9153d8d9c38fb9fb158b2bb7bca00e309777
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 15.0.1
+    minimumUnityVersion: 6000.6.0a7
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.spriteshape@16.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 16.0.0
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.spriteshape@42798c9d35d3
+  assetPath: Packages/com.unity.2d.spriteshape
+  name: com.unity.2d.spriteshape
+  displayName: 2D SpriteShape
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: SpriteShape Runtime & Editor Package contains the tooling and the runtime component that allows you to create very organic looking spline based 2D worlds. It comes with intuitive configurator and a highly performant renderer.
+  errors: []
+  versions:
+    all:
+    - 1.0.10-preview.2
+    - 1.0.11-preview
+    - 1.0.12-preview
+    - 1.0.12-preview.1
+    - 1.0.14-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.1.0-preview.2
+    - 2.1.0-preview.6
+    - 2.1.0-preview.7
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 3.0.1
+    - 3.0.2
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.0.10
+    - 3.0.11
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 5.1.7
+    - 5.2.0
+    - 5.3.0
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
+    - 7.0.5
+    - 7.0.6
+    - 7.0.7
+    - 7.1.0
+    - 8.0.0-pre.4
+    - 8.0.0-pre.5
+    - 8.0.0
+    - 8.0.1
+    - 9.0.0-pre.1
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.0.5
+    - 9.1.0
+    - 9.1.1
+    - 10.0.0-pre.1
+    - 10.0.0-pre.2
+    - 10.0.0
+    - 10.0.1
+    - 10.0.2
+    - 10.0.3
+    - 10.0.4
+    - 10.0.5
+    - 10.0.6
+    - 10.0.7
+    - 10.1.0
+    - 10.1.1
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 13.0.0
+    - 14.0.0
+    - 14.0.1
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
+    - 15.0.3
+    - 16.0.0
+    - 17.0.0
+    - 17.0.1
+    compatible:
+    - 16.0.0
+    recommended: 16.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.mathematics
+    version: 1.1.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  keywords:
+  - 2d
+  - shape
+  - spriteshape
+  - smartsprite
+  - spline
+  - terrain2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639162493606900000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@16.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 95ca1e06e087c19485fddeea307c483cc0e137da
+    path: 
+  unityLifecycle:
+    version: 16.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix (UUM-132580) \"Element Inspector\" Overlay has inconsistent Sprite Variants preview size control slider\n- Fix (UUM-134689) \"GetControlID\" Warning is thrown when undoing the deletion of Sprite Shape Profile"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 42798c9d35d3d83466a6eac06e49b1c4284e0514
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 16.0.0
+    minimumUnityVersion: 6000.6.0a7
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.tilemap@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.tilemap@4a51245c030d
+  assetPath: Packages/com.unity.2d.tilemap
+  name: com.unity.2d.tilemap
+  displayName: 2D Tilemap Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Tilemap Editor is a package that contains editor functionalities for editing Tilemaps.
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  keywords:
+  - 2d
+  - Tilemap
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 4a51245c030d41ab8043c4e1671919d8a12f4a09
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.tilemap.extras@9.0.1
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 9.0.1
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.tilemap.extras@9446f3c60919
+  assetPath: Packages/com.unity.2d.tilemap.extras
+  name: com.unity.2d.tilemap.extras
+  displayName: 2D Tilemap Extras
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: '2D Tilemap Extras is a package that contains extra scripts for use with 2D Tilemap features in Unity. These include custom Tiles and Brushes for the Tilemap feature.
+
+
+    The following are included in the package:
+
+    Brushes: GameObject Brush, Group Brush, Line Brush, Random Brush
+
+    Tiles: Animated Tile, Auto Tile, Rule Tile, Rule Override Tile
+
+    Other: Grid Information, Custom Rules for Rule Tile'
+  errors: []
+  versions:
+    all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 1.8.4-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.2.7
+    - 2.2.8
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.1
+    - 4.3.0
+    - 4.3.1
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 7.0.0-exp.1
+    - 7.0.0
+    - 7.0.1
+    - 8.0.0-exp.1
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.88.0-exp.1
+    - 8.88.0-exp.2
+    - 9.0.0
+    - 9.0.1
+    - 10.0.0
+    - 10.0.1
+    compatible:
+    - 9.0.1
+    recommended: 9.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639234795872710000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@9.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 72c620dc8c96ad4620a18b1795884f670b7f5794
+    path: 
+  unityLifecycle:
+    version: 9.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- [AutoTileEditor] Add asset preview for AutoTile\n\n### Fixed\n- [GameObjectBrush] Only destroy HideAndDontSave objects set in GameObjectBrush for GameObjectBrush.Reset\n\n### Changed\n- [AutoTileEditor] Limit number of textures for AutoTile to 0-1000\n- [AdvancedRuleOverrideTileEditor] Add scrolling to Rules\n- [GameObjectBrush] Set minimum of each size element to 1\n- [RandomBrushEditor] Cap each random Set Size element to 100 and total size to 10000\n- [RandomBrushEditor] Add dialog box to confirm changes if total Tile count exceeds 100000\n- [RandomBrushEditor] Set minimum of Number of Sets to 1\n- [RuleTile] Optimise GetTileAnimationData to skip rule matching when no TilingRule has Animation output.\n- [RuleTile] Fix matching for GetTileAnimationData to stop at exact rule matched."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 9446f3c609197cd7907ef77556c62aa26a909b11
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 9.0.1
+    minimumUnityVersion: 6000.6
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.aseprite@6.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 6.0.0
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.aseprite@ab909e3e9b5f
+  assetPath: Packages/com.unity.2d.aseprite
+  name: com.unity.2d.aseprite
+  displayName: 2D Aseprite Importer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.7
+    - 1.1.8
+    - 1.1.9
+    - 1.1.10
+    - 1.1.11
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 6.0.0
+    - 7.0.0
+    - 7.0.1
+    compatible:
+    - 6.0.0
+    recommended: 6.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - 2d
+  - Aseprite
+  - Pixel
+  - Art
+  - assetimporter
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639162493641750000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 95ca1e06e087c19485fddeea307c483cc0e137da
+    path: 
+  unityLifecycle:
+    version: 6.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where you could not change an Aseprite file containing tile data to AnimatedSprite import mode. (UUM-135150)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: ab909e3e9b5fc0499b261a0c86d0c633a37f3931
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.0.0
+    minimumUnityVersion: 6000.6.0a6
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.tooling@4.0.1
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 4.0.1
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.tooling@4e93af4036ee
+  assetPath: Packages/com.unity.2d.tooling
+  name: com.unity.2d.tooling
+  displayName: 2D Tooling
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A Unity Editor tool to analyze Sprite Atlases usage.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0
+    - 5.0.1
+    compatible:
+    - 4.0.1
+    recommended: 4.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 15.0.0
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639234795851280000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tooling@4.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 72c620dc8c96ad4620a18b1795884f670b7f5794
+    path: 
+  unityLifecycle:
+    version: 4.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Improved report generation speed.\n- Inform user if there are reports that are still generating when ''Analyze'' button is clicked.\n- Fixed warning when analyzing during play mode. (UUM-141203)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 4e93af4036eea692dc0254a16e5868baa132a7ab
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.0.1
+    minimumUnityVersion: 6000.6.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.common@15.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 15.0.0
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.2d.common@b779c433ed47
+  assetPath: Packages/com.unity.2d.common
+  name: com.unity.2d.common
+  displayName: 2D Common
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Common is a package that contains shared functionalities that are used by most of the other 2D packages.
+  errors: []
+  versions:
+    all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 6.0.8
+    - 6.1.0
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.1.0
+    - 8.1.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.0.5
+    - 9.0.6
+    - 9.0.7
+    - 9.1.0
+    - 9.1.1
+    - 9.1.2
+    - 10.0.0
+    - 11.0.0
+    - 11.0.1
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 12.0.3
+    - 12.0.4
+    - 13.0.0
+    - 13.0.1
+    - 13.0.2
+    - 14.0.0
+    - 14.0.1
+    - 15.0.0
+    - 16.0.0
+    compatible:
+    - 15.0.0
+    recommended: 15.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.mathematics
+    version: 1.1.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.6.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  - name: com.unity.mathematics
+    version: 1.4.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639162493556270000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@15.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 95ca1e06e087c19485fddeea307c483cc0e137da
+    path: 
+  unityLifecycle:
+    version: 15.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix the issue where the Scene and Sprite Editor views fail to update correctly when an edge is deleted to split geometry. (UUM-134656)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: b779c433ed47e1d0311603b4e9f30cdcb66e5628
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 15.0.0
+    minimumUnityVersion: 6000.6.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.mathematics@1.4.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 1.4.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.mathematics@8306a64d0cd6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Note: The package is now empty and unnecessary, because it has been moved to a module. Formerly, it contained Unity''s C# SIMD math library providing vector types and math functions with a shader like syntax.'
+  errors: []
+  versions:
+    all:
+    - 1.4.0
+    compatible:
+    - 1.4.0
+    recommended: 1.4.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 8306a64d0cd683e2e50ce0d909c1f82e70f75669
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.4.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collections@6.6.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 6.6.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.collections@10fff0607388
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A C# collections library providing data structures that can be used in jobs, and optimized by Burst compiler.
+  errors: []
+  versions:
+    all:
+    - 6.6.0
+    compatible:
+    - 6.6.0
+    recommended: 6.6.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.4.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 2.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 6.6.0
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 6.6.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 10fff0607388aeb98b314cf1183d493c1e67b9ef
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.6.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.burst@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 2.0.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.burst@626e66ab421b
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: shim
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.
+  errors: []
+  versions:
+    all:
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 626e66ab421bf31cfa602bb20675290e2a514b01
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.nuget.mono-cecil@1.11.6
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 1.11.6
+  source: 1
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This package is intended for internal Unity use only. Most Unity users will be better suited using the existing community tooling.
+
+    To avoid assembly clashes, please use this package if you intend to use Mono.Cecil.'
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview.2
+    - 1.0.0-preview.1
+    - 1.10.0-preview.1
+    - 1.10.1-preview.1
+    - 1.10.1
+    - 1.10.2
+    - 1.11.4
+    - 1.11.5
+    - 1.11.6
+    compatible:
+    - 1.11.6
+    recommended: 1.11.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638950052256350000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.nuget.mono-cecil@1.11/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: ab40507b5d82f57a4f34b6d0eacca1d6b170341d
+    path: 
+  unityLifecycle:
+    version: 1.11.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* This is a verified release of the com.unity.nuget.mono-cecil with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.11.6
+    minimumUnityVersion: 2019.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework.performance@6.6.0
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 6.6.0
+  source: 2
+  resolvedPath: /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Library/PackageCache/com.unity.test-framework.performance@b6023decb532
+  assetPath: Packages/com.unity.test-framework.performance
+  name: com.unity.test-framework.performance
+  displayName: Performance testing API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.
+  errors: []
+  versions:
+    all:
+    - 6.6.0
+    compatible:
+    - 6.6.0
+    recommended: 6.6.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.8.0
+  - name: com.unity.ext.nunit
+    version: 2.1.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - performance
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 6.6.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: b6023decb532a570b0df99e618cb20b0ba6198ba
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.6.0
     minimumUnityVersion: 
   compliance:
     status: 0
