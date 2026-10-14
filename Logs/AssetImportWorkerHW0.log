@@ -7,11 +7,11 @@ Darwin version:          25.6.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        49152 MB
-Date:                    2026-10-11T17:11:02Z
+Date:                    2026-10-14T17:42:57Z
 [WARNING] The Intel macOS Editor is deprecated; it will no longer be available after Unity 6.7 LTS.
 
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa" at "2026-10-11T17:11:02.479094Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa" at "2026-10-14T17:42:57.358511Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/MacOS/Unity
@@ -25,9 +25,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-64265
+65336
 -parentPid
-52169
+56198
 -analyticsCloudUserId
 anonymous
 -analyticsLocalProjectId
@@ -88,12 +88,12 @@ Successfully changed project path to: /Users/mariaukrainskaa/Desktop/46hvyh/opd-
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8803487296]  Target information:
+Player connection [8776318528]  Target information:
 
-Player connection [8803487296]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3958000102 [EditorId] 3958000102 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8776318528]  * "[IP] 192.168.0.133 [Port] 0 [Flags] 2 [Guid] 2060986760 [EditorId] 2060986760 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8803487296] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8803487296] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8776318528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8776318528] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 8
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -136,22 +136,22 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Res
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 CodeReloadManager initialized
-Begin MonoManager ReloadAssembly
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              73516ca780414f589c1f3c52e8286ad6
+  Session Id:              110a7890ef524bd099dcbd3e85b8b951
   Correlation Id:          39002d72ebd3564e7501b2ba29de4f01
-  External correlation Id: 1141945276647101787
+  External correlation Id: 8974158940320896584
   Machine Id:              LpnL7C59YsJ+/7ARDlfIqvcwJFM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mariaukrainskaa" (connect: 0.00s, validation: 0.00s, handshake: 0.30s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa-notifications" at "2026-10-11T17:11:02.782891Z"
-[Licensing::Module] Licensing Background thread has ended after 0.30s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mariaukrainskaa" (connect: 0.00s, validation: 0.00s, handshake: 0.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mariaukrainskaa-notifications" at "2026-10-14T17:42:57.61298Z"
+[Licensing::Module] Licensing Background thread has ended after 0.25s
+Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000718 seconds.
+Registered in 0.000597 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -160,25 +160,24 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.345 seconds
-Domain Reload Profiling: 2146ms
-	BeginReloadAssembly (168ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (6ms)
+- Finished resetting the current domain, in  1.177 seconds
+Domain Reload Profiling: 1883ms
+	BeginReloadAssembly (133ms)
+	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (502ms)
-		LoadAssemblies (164ms)
-		TypeCache.Refresh (188ms)
-			TypeCache.ScanAssembly (176ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (131ms)
+		TypeCache.Refresh (176ms)
+			TypeCache.ScanAssembly (165ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (1348ms)
+	FinalizeReload (1180ms)
 		SetupLoadedEditorAssemblies (0ms)
 			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (447ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (357ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (393ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (306ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -199,42 +198,51 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.179 seconds
-Domain Reload Profiling: 2103ms
-	BeginReloadAssembly (337ms)
-		DisableScriptedObjects (44ms)
-		CreateAndSetChildDomain (34ms)
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 2101ms
+	BeginReloadAssembly (361ms)
+		DisableScriptedObjects (38ms)
+		CreateAndSetChildDomain (42ms)
 	RebuildCommonClasses (7ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (511ms)
-		LoadAssemblies (309ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (310ms)
 		TypeCache.Refresh (37ms)
 			TypeCache.ScanAssembly (29ms)
-		AnalyzeDomain (31ms)
-			BuildScriptInfoCaches (29ms)
-	FinalizeReload (1181ms)
+		AnalyzeDomain (36ms)
+			BuildScriptInfoCaches (33ms)
+	FinalizeReload (1128ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			BeforeProcessingInitializeOnLoad (396ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (371ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
 		AwakeInstancesAfterBackupRestoration (17ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1554 unused Assets / (61.4 KB). Loaded Objects now: 2293.
+Unloading 1554 unused Assets / (64.4 KB). Loaded Objects now: 2293.
 Memory consumption went from 122.2 MB to 122.1 MB.
-Total: 5.161125 ms (FindLiveObjects: 0.218167 ms CreateObjectMapping: 0.032292 ms MarkObjects: 4.723625 ms  DeleteObjects: 0.141125 ms)
+Total: 5.249083 ms (FindLiveObjects: 0.210667 ms CreateObjectMapping: 0.031958 ms MarkObjects: 4.819959 ms  DeleteObjects: 0.144583 ms)
 
 ========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 2293.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 3.510167 ms (FindLiveObjects: 0.119208 ms CreateObjectMapping: 0.014250 ms MarkObjects: 3.330917 ms  DeleteObjects: 0.006292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time of request: 2026-10-11T17:11:09.327687Z
-  Time since last request: 300903.77943658299046 seconds.
+  Time of request: 2026-10-14T17:45:53.93547Z
+  Time since last request: 341513.84741058299551 seconds.
   importAddress: GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
 Importing 'GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 230ee21eea18d46e48f6038641c438b7' -> (Import Result ID: '01472e0fee4fd1927130a4a199947d41') in 0.166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b59d3dd8648d24af28e7fe7e79c505d DependenciesID=5e67bdb570204c94fb617aef5c2b0343 StaticDependenciesID=87dc6b0e890ed973d2dd4c41e56ec546 
+Imported 'GUID: 230ee21eea18d46e48f6038641c438b7' -> (Import Result ID: '2a47f690caaa0175fc5e39c4fd6ecb35') in 0.178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4da5b2c348ecbcbbed25e8ad4455900b DependenciesID=55aa90fb6978c1fbd0fe889c33a473dc StaticDependenciesID=6eb9c47eb02621dcd061a8afda2ad60e 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Editor is closing down

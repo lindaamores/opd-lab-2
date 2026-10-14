@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 73
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 74
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 72
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -472,17 +472,17 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 67}
     m_SelectedIDs:
-    - m_rawData: 1099511643369
+    - m_rawData: 1099511643354
     m_LastClickedID:
-      m_rawData: 1099511643369
+      m_rawData: 1099511643354
     m_ExpandedIDs:
     - m_rawData: 0
     - m_rawData: 6442450943
     - m_rawData: 1099511643150
     - m_rawData: 1099511643151
     - m_rawData: 1099511643152
-    - m_rawData: 1099511643338
-    - m_rawData: 1099511643348
+    - m_rawData: 1099511643323
+    - m_rawData: 1099511643333
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1221,9 +1221,9 @@ MonoBehaviour:
       scrollOffset: 0
     m_DynamicPanelContainerData:
     - containerId: overlay-dynamic-panel--left
-      width: 120
+      width: 211
       saveData:
-        state: 0
+        state: 1
         overlayData:
         - overlayId: Overlays/OverlayMenu
           metaData:
@@ -1248,9 +1248,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 33.054268, y: 31.650234, z: -0.18270633}
+    m_Target: {x: 96.74191, y: 36.137173, z: 0.13809112}
     speed: 2
-    m_Value: {x: 33.054268, y: 31.650234, z: -0.18270633}
+    m_Value: {x: 96.74191, y: 36.137173, z: 0.13809112}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1301,9 +1301,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 38.439667
+    m_Target: 6.3599467
     speed: 2
-    m_Value: 38.439667
+    m_Value: 6.3599467
   m_Ortho:
     m_Target: 1
     speed: 2
