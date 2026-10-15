@@ -1,28 +1,118 @@
-[2026-10-14T17:42:48.536Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 56198 --ipc-path /tmp/Unity-Upm-56198.sock -l 2 --log-file /Users/mariaukrainskaa/Desktop/46hvyh/opd-lab-2/Logs/upm.log
-[2026-10-14T17:42:48.599Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-56198.sock).
-[2026-10-14T17:42:48.600Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-56198.
-[2026-10-14T17:42:51.606Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:29.737Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 6124 --ipc-path Unity-Upm-6124 -l 2 --log-file C:\\Users\\Sun\\Documents\\GitHub\\opd-lab-2/Logs/upm.log
+[2026-10-15T09:04:29.742Z][INFO] Detected environment variables:
+  HTTPS_PROXY=http://127.0.0.1:2080/
+  HTTP_PROXY=http://127.0.0.1:2080/
+  NO_PROXY=localhost,127.0.0.1,::1
+[2026-10-15T09:04:29.767Z][INFO] IPC server started (IPC path=Unity-Upm-6124).
+[2026-10-15T09:04:29.768Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-6124.
+[2026-10-15T09:04:38.726Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-14T17:42:51.822Z][INFO] config:project:get-registries <-- Request received
+[2026-10-15T09:04:38.781Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-14T17:42:52.418Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:38.804Z][ERROR] Unexpected error fetching registry list config: Cannot connect to 'cdn.packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+{
+  stack: "Error: Cannot connect to 'cdn.packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.\n" +
+    '    at convertHttpRequestErrorToUpmError (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:7607)\n' +
+    '    at runAxiosRequest (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:10548)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async Object.getJsonAndEtag (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:107)\n' +
+    '    at async Object.fetchNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:3824)\n' +
+    '    at async /home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:4975\n' +
+    '    at async findMatchingNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:5849)\n' +
+    '    at async Object.getRegistryCompliance (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:6497)\n' +
+    '    at async getRegistryInfo (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:185:10765)\n' +
+    '    at async Object.getAllRegistryInfo (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:185:11208)'
+}
+[2026-10-15T09:04:38.811Z][INFO] config:project:get-registries --> 200 (30 ms)
+[2026-10-15T09:04:38.883Z][INFO] project:list-packages --> 200 (157 ms)
+[2026-10-15T09:04:38.963Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-14T17:42:52.527Z][INFO] config:project:get-registries --> 200 (707 ms)
-[2026-10-14T17:42:52.551Z][INFO] project:list-packages --> 200 (946 ms)
-[2026-10-14T17:42:52.725Z][INFO] project:list-packages --> 200 (307 ms)
-[2026-10-14T17:42:56.663Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:39.017Z][INFO] project:resolve-packages <-- Request received
 params: {}
-[2026-10-14T17:42:56.761Z][INFO] project:list-packages --> 200 (98 ms)
-[2026-10-14T17:42:56.775Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:39.032Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.040Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.041Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.045Z][INFO] project:list-packages --> 200 (83 ms)
+[2026-10-15T09:04:39.054Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.054Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.055Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.055Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.057Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.058Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.058Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.062Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.062Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.063Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.065Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.065Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.066Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.066Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.070Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.072Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.074Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.075Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.078Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.079Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.081Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.082Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.084Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.086Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.088Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.089Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.122Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.123Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.123Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.124Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.124Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.125Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.125Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.127Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.127Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.128Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.128Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNREFUSED). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-15T09:04:39.137Z][INFO] project:resolve-packages --> 200 (120 ms)
+[2026-10-15T09:04:45.732Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-14T17:42:56.861Z][INFO] project:list-packages --> 200 (86 ms)
-[2026-10-14T17:42:57.010Z][INFO] config:project:get-registries <-- Request received
+[2026-10-15T09:04:45.757Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-14T17:42:57.015Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-10-14T17:42:59.801Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:45.811Z][INFO] project:list-packages --> 200 (79 ms)
+[2026-10-15T09:04:45.846Z][INFO] project:list-packages --> 200 (89 ms)
+[2026-10-15T09:04:45.861Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-14T17:42:59.956Z][INFO] project:list-packages --> 200 (155 ms)
-[2026-10-14T17:43:03.529Z][INFO] project:list-packages <-- Request received
+[2026-10-15T09:04:45.864Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-10-15T09:04:50.585Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-14T17:43:05.771Z][INFO] project:list-packages --> 200 (2242 ms)
-[2026-10-14T17:46:09.807Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
+[2026-10-15T09:04:50.659Z][INFO] project:list-packages --> 200 (74 ms)
+[2026-10-15T09:04:51.365Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:04:51.426Z][INFO] project:list-packages --> 200 (60 ms)
+[2026-10-15T09:05:10.992Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:05:11.065Z][INFO] project:list-packages --> 200 (73 ms)
+[2026-10-15T09:05:11.089Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-15T09:05:11.093Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-10-15T09:07:27.639Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:07:27.704Z][INFO] project:list-packages --> 200 (65 ms)
+[2026-10-15T09:07:27.737Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-15T09:07:27.740Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-10-15T09:22:00.879Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:22:00.940Z][INFO] project:list-packages --> 200 (61 ms)
+[2026-10-15T09:22:00.970Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-15T09:22:00.973Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-10-15T09:24:48.951Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:24:49.011Z][INFO] project:list-packages --> 200 (60 ms)
+[2026-10-15T09:24:49.038Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-15T09:24:49.040Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-10-15T09:32:28.727Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-15T09:32:28.788Z][INFO] project:list-packages --> 200 (61 ms)
+[2026-10-15T09:32:28.807Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-15T09:32:28.810Z][INFO] config:project:get-registries --> 200 (3 ms)
